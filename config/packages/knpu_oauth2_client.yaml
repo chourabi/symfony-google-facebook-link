@@ -1,0 +1,11 @@
+knpu_oauth2_client:
+    clients:
+        # the key "google" can be anything, it
+        # will create a service: "knpu.oauth2.client.google"
+        google:
+            type: google
+            client_id: '3504560839-631s3udt83gb4jeuicavgffd4n0qtm85.apps.googleusercontent.com'
+            client_secret: 'ZADsgJ4CEVXS_S-wRmrUVraS'
+            # the route that you're redirected to after
+            redirect_route: connect_google_check
+            redirect_params: {}
